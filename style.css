@@ -1,0 +1,52 @@
+body
+{
+    background-color: rgb(123, 173, 194);
+    color: white;
+    align-items: center;
+    
+} 
+/* div
+{
+  align-items: center;
+} */
+#form
+{
+  align-items: center;
+  font-size: 23px;
+  
+}
+#filterinput
+{
+  width: 15%;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 1px 5px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+ 
+  #table {
+   
+    border: 1;
+    color: black;
+  }
+    #Update
+    {
+        display: none;
+    }
+
+
+#crudtable tr td
+{
+    border: 3px solid black;
+
+}
+#crudtable thead tr th{
+  border: 3px solid black;
+ padding: 10px;
+}
